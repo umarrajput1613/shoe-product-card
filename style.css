@@ -64,10 +64,19 @@
 
     .collection {
       margin-top: 10px;
-      font-size: 14px;
+      font-size: 19px;
       color: #ccc;
     }
-
+    .sizeL {
+      display: flex;
+      justify-content: space-between;
+    }
+    .colorL 
+    {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
     .product-name {
       font-size: 28px;
       font-weight: bold;
