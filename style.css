@@ -1,0 +1,146 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 750px;
+      display: flex;
+      border-radius: 20px;
+      overflow: visible;
+      background-color: #2a2f40;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      z-index: 0;
+    }
+
+    .left-side {
+      width: 50%;
+      background: #ff5e3a;
+      border-top-right-radius: 180px;
+      border-bottom-right-radius: 180px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: visible;
+    }
+
+    .left-side img {
+      width: 120%;
+      position: absolute;
+      top: 45%;   
+      left: 42%;  
+      transform: translate(-50%, -50%) rotate(5deg);  
+      z-index: 2;
+    }
+
+    .right-side {
+      flex: 1;
+      padding: 40px;
+      color: white;
+      z-index: 1;
+    }
+
+    .brand {
+      font-size: 25px;
+      letter-spacing: 1px;
+      color: #ff5e3a;
+      font-weight: bold;
+      display: flex;
+      font-family: Waffle Mango;
+      justify-content: space-between;
+    }
+
+    .collection {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .product-name {
+      font-size: 28px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #fff;
+    }
+
+    .price {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #fff;
+    }
+
+    .price del {
+      color: #888;
+      margin-left: 10px;
+    }
+
+    .size-label,
+    .color-label {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .sizes span,
+    .colors span {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #444;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .sizes span:hover {
+      background-color: #ff5e3a;
+      color: white;
+    }
+
+    .colors span {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+
+    .colors .yellow { background-color: #f6c000; }
+    .colors .black  { background-color: #000000; }
+    .colors .blue   { background-color: #00c6ff; }
+
+    .actions {
+      margin-top: 30px;
+    }
+
+    .btn {
+      background: #ff5e3a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 15px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #e14a24;
+    }
