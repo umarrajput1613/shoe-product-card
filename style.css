@@ -44,7 +44,7 @@
       font-weight: bolder;
       margin-top: 280px;
       margin-left: 100px;
-      z-index: 3; /* Ensure the text is above the image */
+      z-index: 3; 
     }
 
     .left-side img {
@@ -63,7 +63,7 @@
       z-index: 1;
     }
 
-    .brand {
+    .content-header {
       font-size: 25px;
       letter-spacing: 1px;
       color: #ff5e3a;
@@ -104,6 +104,8 @@
     .price del {
       color: #888;
       margin-left: 10px;
+      text-decoration: line-through;
+      text-decoration-color: red;
     }
 
     .size-label,
@@ -151,7 +153,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  gap: 10px; /* Buttons ke beech thoda gap */
+  gap: 10px; 
 }
 
   
@@ -159,20 +161,20 @@
   background: #ff5e3a;
   color: white;
   border: none;
-  padding: 10px 18px; /* Thoda kam padding */
+  padding: 10px 18px; 
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
-  margin-right: 0; /* Agar gap use kar rahe hain toh margin-right ki zarurat nahi */
+  margin-right: 0; 
   transition: background 0.3s;
   display: flex;
-  align-items: center; /* SVG aur text ek line mein */
+  align-items: center; 
 }
 
     .btn svg {
-  width: 16px; /* SVG ka size thoda chhota */
-  height: 16px; /* SVG ka size thoda chhota */
-  margin-right: 8px; /* SVG aur text ke beech mein gap */
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
   
 }
 .btn svg {
